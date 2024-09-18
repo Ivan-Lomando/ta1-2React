@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 1s linear;
   }
 }
 
@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  background-color: #f4f4f9; /* Fondo suave */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar efecto de elevación */
+  padding: 20px; /* Espacio interno */
+  max-width: 400px; /* Ancho máximo de la tarjeta */
+  margin: 10px auto; /* Centrar tarjeta con margen */
+  font-family: Arial, sans-serif; /* Fuente */
+}
+
+.card h1 {
+  font-size: 24px; /* Tamaño de título */
+  color: #333; /* Color del texto del título */
+  margin-bottom: 10px; /* Espacio debajo del título */
+}
+
+.card p {
+  font-size: 16px; /* Tamaño de texto */
+  color: #555; /* Color del texto */
+  margin-bottom: 8px; /* Espacio entre los párrafos */
+  font-weight: bold;
+}
+
+.card p:last-of-type {
+  margin-bottom: 0; /* Eliminar espacio para el último párrafo */
+}
+
